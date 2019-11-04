@@ -7,9 +7,7 @@ import {
 import reduers from './reduers'
 import thunk from 'react-thunk'
 export default createStore(
-  combineReducers(reduers),
-  {
+  // combineReducers(reduers),
 
-  },
-  applyMiddleware(thunk)
+  // applyMiddleware(thunk)
 )
